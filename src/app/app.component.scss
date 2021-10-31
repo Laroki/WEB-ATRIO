@@ -1,0 +1,25 @@
+@import '../assets/colors.scss';
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 60px;
+
+    h1 {
+        font-size: 20px;
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        font-size: 16px;
+        margin-left: 66px;
+    
+        li {
+            cursor: pointer;
+            &:last-child {
+                margin-left: 15px;
+            }
+        }
+    }
+}
