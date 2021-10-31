@@ -1,8 +1,14 @@
 <nav>
   <h1>RobotDemoApp</h1>
   <ul>
-    <li>Accueil</li>
-    <li>Liste des articles</li>
+    <li [routerLink]="['/']"
+        [ngClass]="{'text-yellow': activatedRoute === '/'}">
+        Accueil
+    </li>
+    <li [routerLink]="['/articles']"
+        [ngClass]="{'text-yellow': activatedRoute === '/articles'}">
+        Liste des articles
+    </li>
   </ul>
 </nav>
 

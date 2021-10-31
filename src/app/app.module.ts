@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 
 import { ListComponent } from './list/list.component';
 import { HomeComponent } from './home/home.component';
+import { CardComponent } from './components/card/card.component';
+import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListComponent,
-    HomeComponent
+    HomeComponent,
+    CardComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,

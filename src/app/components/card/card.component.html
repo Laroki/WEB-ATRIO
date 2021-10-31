@@ -1,0 +1,9 @@
+<div class='card'>
+    <span class="label">{{post.label}}</span>
+    <div class="image"></div>
+    <p>{{post.content}}</p>
+    <button class="button" [routerLink]="['/article', post.id]" [state]="post">
+        Découvrir
+    </button>
+</div>
+
